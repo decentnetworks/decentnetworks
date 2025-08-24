@@ -1,7 +1,13 @@
 # Decent Network — Whitepaper (v0.92, EN)
 
 ## 0) Abstract
-The web privileges one‑way fetching over two‑way reachability. Scarce, centralized naming and addressing (IP/DNS), plus perimeterized networks, make inbound access fragile and platform‑dependent. **Decent Network** introduces a **permissionless public communication substrate** where **pubkey is the address**. Discovery uses a signed **DHT**; connectivity comes from a community‑operated layer that supplies **STUN/TURN/relay** capacity and NAT traversal (ICE), with transports such as **WebRTC DataChannel / QUIC / HTTP/3 MASQUE / WebSocket**. Security is end‑to‑end by default. Economics are usage‑based and transparent on public blockchains. The goal is a minimal, neutral base that enables safer, friendlier, and more efficient applications — notably next‑gen social and AI agents.
+The web privileges one‑way fetching over two‑way reachability. Scarce, centralized naming and addressing (IP/DNS), plus perimeterized networks, make inbound access fragile and platform‑dependent. 
+#### **Decent Network** introduces a **permissionless public communication substrate** where **pubkey is the address**.
+- Discovery uses a signed **DHT**;
+- connectivity comes from a community‑operated layer that supplies **STUN/TURN/relay** capacity and NAT traversal (ICE), with transports such as **WebRTC DataChannel / QUIC / HTTP/3 MASQUE / WebSocket**.
+- Security is end‑to‑end by default.
+- Economics are usage‑based and transparent on public blockchains.
+#### The goal is a minimal, neutral base that enables safer, friendlier, and more efficient applications — notably next‑gen social and AI agents.
 
 ## 1) Motivation & Problem Statement
 - **Visibility asymmetry**: publishers are visible; visitors are effectively invisible, complicating interaction and durable reputation.
